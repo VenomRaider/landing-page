@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color:  #1f2937;
+    font-family: monospace;
+}
+
+.header {
+    display: flex;
+    background-color:  #1f2937;
+    color: #f9faf8;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+}
+
+.left {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    gap: 16px;
+}
+
+.right {
+    margin-left: 60%;
+    gap: 16px;
+}
+
+.container {
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.this {
+    color: #f9faf8;
+
+}
+
+.some {
+    color: black;
+}
+
+.inspiring {
+    background-color: #e5e7eb;
+
+}
+
+.call {
+    color: black;
+}
+
+.copyright {
+    color: white;
+}
