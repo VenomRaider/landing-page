@@ -2,13 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around
+}
+
+div {
+    display: flex;
 }
 
 .header {
     display: flex;
     color: #f9faf8;
     justify-content: space-around;
+    align-items: center;
     }
 
 .logo {
@@ -29,14 +35,16 @@ a {
 
 .first {
     display: flex;
+    justify-content: space-around;
     color: #f9faf8;
+    margin: 100px 16%;
+    height: 400;
 }
 
 .first-words {
-    display: flex;
-    flex-wrap: wrap;  
-    align-content: space-around;
-
+    flex-direction: column;
+    padding: 35;
+    
 }
 
 .first-bold {
@@ -47,5 +55,89 @@ a {
 .first-image {
     display: flex;
     flex: 1;
-    margin-left: 40%;
+}
+
+.pair {
+    display: flex;
+    flex: 0;
+    width: 500px;
+    height: 250px;
+    padding: 35px;
+}
+
+.button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    height: 50px;
+    width: 150px;
+    margin: 20px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+
+.cont-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.some {
+    display: flex;
+    justify-content: center;  
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+}
+.grand {
+    max-width: 200px;
+    max-height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.desc {
+    text-align: center;
+}
+
+.cont-two {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+    padding: 100px 16%;    
+}
+
+.inspiring {
+    justify-content: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.who {
+    justify-content: flex-end;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.cont-three {
+    background-color: #3882f6;
+    margin: 20px;
 }
